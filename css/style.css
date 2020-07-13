@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #379683;
+}
+.container-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#5cbb95;
+    flex: 0 1 50%;
+    width: 40%;
+    padding: 80px;
+    line-height: 50px;
+    color: #edf5e1;
+    border-radius: 20px;
+    font-size: 30px;
+    box-shadow: 0px 10px 21px 0px rgba(0,10,33,0,.7);
+}
+p{
+    font-weight: 700;
+    color: #05386b;
+}
+
